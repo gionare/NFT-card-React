@@ -28,6 +28,18 @@ To run this project locally, follow these steps:
 - CSS: Cascading Style Sheets for styling the application.
 - HTML: Hypertext Markup Language for structuring web pages.
 
+## card flexing in body
+
+```css
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 100px 0;
+}
+```
+
 ## HTML and CSS for nice rotating glow outer border
 
 ```html
