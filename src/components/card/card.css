@@ -106,3 +106,20 @@
 .avatar p span:hover {
   color: rgba(0, 255, 248, 1);
 }
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%; /* Set max-width to 100% for smaller screens */
+  }
+
+  .info-container div {
+    flex-direction: column; /* Change flex-direction to column for smaller screens */
+    align-items: flex-start; /* Align items to start for smaller screens */
+  }
+
+  .avatar {
+    flex-direction: column; /* Change flex-direction to column for smaller screens */
+    align-items: flex-start; /* Align items to start for smaller screens */
+  }
+}
