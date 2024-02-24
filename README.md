@@ -9,7 +9,8 @@ Welcome to the Equilibrium Collection project! This is a React application card
 - Responsive design for optimal viewing across devices.
 - Integration with React for dynamic rendering and component-based architecture.
 
-![Screenshot](public/screenshot.png)
+<!-- ![Screenshot](public/screenshot.png) -->
+<img src="public/screenshot.png" alt="Screenshot" height="400">
 
 ## Installation
 
@@ -60,4 +61,10 @@ To run this project locally, follow these steps:
     transform: rotate(360deg);
   }
 }
+```
+
+## try to include
+
+```html
+<meta property="og:image" content="public/screenshot.png" />
 ```
